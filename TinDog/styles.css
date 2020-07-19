@@ -1,0 +1,177 @@
+body{
+  font-family: "Montserrat" ,sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color:white;
+  padding-bottom: 100px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+}
+h2{
+  }
+  h3{
+    font-size: 1.2rem;
+
+  }
+  .big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+  }
+
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.navbar{
+  padding-bottom: 100px;
+  padding-left: 0;
+}
+.nav-item{
+  margin: 0 10px;
+  font-size: .8rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+.download{
+  margin: 5% 3% 5% 0;
+}
+.iphone{
+  margin-left: 80px;
+  width: 70%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+.feat{
+
+  text-align: center;
+  padding: 0 30px;
+}
+#features{
+  padding: 8% 15%;
+  position: relative;
+  background-color: white;
+}
+.ab{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.ab:hover{
+  color: #ff4c68;
+}
+
+
+.fea{
+  color: #8f8f8f;
+}
+/*testimonials*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+
+.carousel-image{
+  border-radius: 50%;
+  width: 15%;
+  margin:  20px 20px;
+}
+
+/*press*/
+#press{
+
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 20px 15px;
+}
+/***pricing*/
+
+#pricing{
+  text-align: center;
+  padding: 5% 10%;
+}
+.row{
+  margin-top: 40px;
+
+}
+.price-heading{
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.pricing-col{
+  padding: 0 10px;
+}
+.card-header{
+  background-color: #ff4c68;
+}
+/* cta*/
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15% 5%;
+    text-align: center;
+
+}
+.cta-class{
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 900;
+
+  font-size: 3.5rem;
+}
+#footer{
+  padding: 4% 15% 2%;
+  text-align: center;
+}
+.footer-image{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.footer-image:hover{
+  color:black;
+}
+.cpy-ri8
+{
+  font-size: .8rem;
+}
+@media (max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+}
